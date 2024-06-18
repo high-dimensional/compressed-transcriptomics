@@ -1,6 +1,7 @@
 # Compressed Transcriptomics
 This repository open sources code and model weights for automated optimum compression of brain transcriptomic data using deep auto-encoding, as detailed in the article [article](URL).
 
+![abstract](assets/graphical_abstract.png)
 ![overview](assets/latent_space.png)
 ![brain](assets/brain_figure.png)
 ![representations](assets/representations.png)
