@@ -6,7 +6,8 @@ This repository open sources code and model weights for automated optimum compre
 ## Table of Contents
 - [What is this repository for?](#what-is-this-repository-for)
 - [Why should I use this model?](#why-should-i-use-this-model)
-    - [Expressive and accurate compression of transcriptomic data](#expressive-and-accurate-compression-of-transcriptomic-data)
+    - [Expressivity](#expressivity)
+    - [Accuracy](#accuracy)
     - [Downstream inference](#downstream-inference)
 - [Usage instructions](#usage-instructions)
 - [Use queries](#use-queries)
@@ -20,13 +21,11 @@ This repository open sources code and model weights for automated optimum compre
 - **As an alternative, we here provide the [code](Usage_Tutorial.ipynb) and [model weights](/model_weights) for a series of trained deep autoencoders.**
 
 ## Why should I use this model?
-### Expressive and accurate compression of transcriptomic data
-
-#### Expressive
+### Expressivity
 ![brain](assets/brain_figure.png)
 Even when reducing *15,633 gene expression values into merely 2 components*, note the intricate variational structure across autoencoded (AE) representations, especially in comparison to methods such as PCA, kPCA, or NMF.   
 
-#### Accurate
+### Accuracy
 ![reconstruction](assets/reconstruction_error.png)
 Across a number of possible latent dimensionalities, the autoencoder achieves superior accuracy in reconstructing original source transcriptomic data in comparison to UMAP, PCA, NMF, and kPCA.
 
