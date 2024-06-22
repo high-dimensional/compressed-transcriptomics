@@ -29,11 +29,12 @@ Even when reducing *15,633 gene expression values into merely 2 components*, not
 #### Accurate
 ![reconstruction](assets/reconstruction_error.png)
 Across a number of possible latent dimensionalities, the autoencoder achieves superior accuracy in reconstructing original source transcriptomic data in comparison to UMAP, PCA, NMF, and kPCA.
+
 *N.B. reconstruction evaluation is not possible with t-SNE.*
 
 ### Downstream inference
 ![prediction](assets/prediction.png)
-We show that deep autoencoders yield superior predictive utility across signalling, microstructural, and metabolic targets, drawn from large-scale open-source MRI and PET data. 
+Deep autoencoders yield superior predictive utility across signalling, microstructural, and metabolic targets in applied machine prediction using transcriptomic data. 
 
 ## Usage instructions
 In the uploaded [Jupyter Notebook](Usage_Tutorial.ipynb) we provide a tutorial that:
