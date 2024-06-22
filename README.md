@@ -53,5 +53,5 @@ Compressed representation of brain genetic transcription. James K Ruffle, Henry 
 ```
 
 ## Funding
-The Medical Research Council; The Wellcome Trust; UCLH NIHR Biomedical Research Centre; Guarantors of Brain.
+The Medical Research Council; The Wellcome Trust; UCLH NIHR Biomedical Research Centre; Guarantors of Brain; British Society of Neuroradiology.
 ![funders](assets/funders.png)
