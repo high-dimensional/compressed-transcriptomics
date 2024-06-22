@@ -1,5 +1,6 @@
 # Compressed Transcriptomics
 ![abstract](assets/graphical_abstract.png)
+![representations](assets/representations.png)
 
 This repository open sources code and model weights for automated optimum compression of brain transcriptomic data using deep autoencoding, as detailed in our [article](https://arxiv.org/abs/2310.16113).
 
@@ -33,10 +34,9 @@ Shown above are candidate latent spaces across alternate data compression method
 #### Accurate
 ![reconstruction](assets/reconstruction_error.png)
 Across a number of possible latent dimensionalities, the autoencoder achieves superior accuracy in reconstructing original source transcriptomic data in comparison to UMAP, PCA, NMF, and kPCA.
-*N.B. reconstruction evaluation is not possible with t-SNE*
+*N.B. reconstruction evaluation is not possible with t-SNE.*
 
 ### Downstream inference
-![representations](assets/representations.png)
 ![prediction](assets/prediction.png)
 We show that deep autoencoders yield superior predictive utility across signalling, microstructural, and metabolic targets, drawn from large-scale open-source MRI and PET data. 
 
@@ -58,4 +58,5 @@ Compressed representation of brain genetic transcription. James K Ruffle, Henry 
 
 ## Funding
 The Medical Research Council; The Wellcome Trust; UCLH NIHR Biomedical Research Centre; Guarantors of Brain.
+
 ![funders](assets/funders.png)
