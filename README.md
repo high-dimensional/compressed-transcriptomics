@@ -7,7 +7,7 @@ This repository open sources code and model weights for automated optimum compre
 ## Table of Contents
 - [What is this repository for?](#what-is-this-repository-for)
 - [Why should I use this model?](#why-should-i-use-this-model)
-    - [Expressive, succinct, and accurate compression of transcriptomic data](#expressive-succinct-and -accurate-compression-of-transcriptomic-data)
+    - [Expressive, succinct, and accurate compression of transcriptomic data](#expressive-succinct-and-accurate-compression-of-transcriptomic-data)
     - [Downstream inference](#downstream-inference)
 - [Usage instructions](#usage-instructions)
 - [Use queries](#use-queries)
