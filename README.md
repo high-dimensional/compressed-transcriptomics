@@ -41,10 +41,10 @@ In the uploaded [Jupyter Notebook](Usage_Tutorial.ipynb) we provide a tutorial t
 - 1. Overviews running inference to compress transcriptomic data into a latent space of 2,4,8,16,32,64, or 128 dimensions.
 - 2. Provides the code and architecture to retrain the a autoencoder for use with other data.
 
-The model weights are open-sourced [here](/model_weights) 
+The model weights are open-sourced [here](/model_weights).
 
 ## Use queries
-Via github issue log or email to j.ruffle@ucl.ac.uk
+Via github issue log or email to j.ruffle@ucl.ac.uk.
 
 ## Citation
 If using these works, please cite the following [paper](https://arxiv.org/abs/2310.16113):
