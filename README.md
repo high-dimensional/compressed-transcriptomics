@@ -1,13 +1,12 @@
 # Compressed Transcriptomics
 ![abstract](assets/graphical_abstract.png)
-![representations](assets/representations.png)
 
 This repository open sources code and model weights for automated optimum compression of brain transcriptomic data using deep autoencoding, as detailed in our [article](https://arxiv.org/abs/2310.16113).
 
 ## Table of Contents
 - [What is this repository for?](#what-is-this-repository-for)
 - [Why should I use this model?](#why-should-i-use-this-model)
-    - [Expressive, succinct, and accurate compression of transcriptomic data](#expressive-succinct-and-accurate-compression-of-transcriptomic-data)
+    - [Expressive and accurate compression of transcriptomic data](#expressive-and-accurate-compression-of-transcriptomic-data)
     - [Downstream inference](#downstream-inference)
 - [Usage instructions](#usage-instructions)
 - [Use queries](#use-queries)
@@ -21,15 +20,11 @@ This repository open sources code and model weights for automated optimum compre
 - **As an alternative, we here provide the [code](Usage_Tutorial.ipynb) and [model weights](/model_weights) for a series of trained deep autoencoders.**
 
 ## Why should I use this model?
-### Expressive, succinct, and accurate compression of transcriptomic data
+### Expressive and accurate compression of transcriptomic data
 
 #### Expressive
 ![brain](assets/brain_figure.png)
 Even when reducing *15,633 gene expression values into merely 2 components*, note the intricate variational structure across autoencoded (AE) representations, especially in comparison to methods such as PCA, kPCA, or NMF.   
-
-#### Succinct
-![latent](assets/latent_space.png)
-Shown above are candidate latent spaces across alternate data compression methods. Note the complex, intricate structure evident in the autoencoder, t-SNE, and UMAP methods, in comparison to PCA, kPCA, or NMF.
 
 #### Accurate
 ![reconstruction](assets/reconstruction_error.png)
