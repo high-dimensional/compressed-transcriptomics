@@ -1,7 +1,7 @@
 # Compressed Transcriptomics
 ![abstract](assets/graphical_abstract.png)
 
-This repository open sources code and model weights for automated optimum compression of brain transcriptomic data using deep autoencoding, as detailed in our [article](https://arxiv.org/abs/2310.16113).
+This repository open sources code and model weights for automated optimum compression of brain transcriptomic data using deep autoencoding, as detailed in our [article](https://doi.org/10.1002/hbm.26795).
 
 ## Table of Contents
 - [What is this repository for?](#what-is-this-repository-for)
@@ -46,9 +46,9 @@ The model weights are open-sourced [here](/model_weights).
 Via github issue log or email to j.ruffle@ucl.ac.uk.
 
 ## Citation
-If using these works, please cite the following [paper](https://arxiv.org/abs/2310.16113):
+If using these works, please cite the following [paper](https://doi.org/10.1002/hbm.26795):
 ```
-Compressed representation of brain genetic transcription. James K Ruffle, Henry Watkins, Robert J Gray, Harpreet Hyare, Michel Thiebaut de Schotten, Parashkev Nachev. arXiv, 2023. DOI https://doi.org/10.48550/arXiv.2310.16113. 
+Compressed representation of brain genetic transcription. James K Ruffle, Henry Watkins, Robert J Gray, Harpreet Hyare, Michel Thiebaut de Schotten, Parashkev Nachev. Human Brain Mapping, 2024. DOI https://doi.org/10.1002/hbm.26795. 
 ```
 
 ## Funding
