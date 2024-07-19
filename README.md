@@ -1,11 +1,7 @@
 # Compressed Transcriptomics
 ![abstract](assets/graphical_abstract.png)
 
-<<<<<<< HEAD
-This repository open sources code and model weights for automated optimum compression of brain transcriptomic data using deep auto-encoding, as detailed in our [article](https://doi.org/10.1002/hbm.26795).
-=======
 This repository open sources code and model weights for automated optimum compression of brain transcriptomic data using deep autoencoding, as detailed in our [article](https://doi.org/10.1002/hbm.26795).
->>>>>>> eaafd9f4782aab35e5fecf3e00baafb50064d4e7
 
 ## Table of Contents
 - [What is this repository for?](#what-is-this-repository-for)
@@ -45,6 +41,7 @@ In the uploaded [Jupyter Notebook](Usage_Tutorial.ipynb) we provide a tutorial t
 - 2. Provides the code and architecture to retrain the a auto-encoder for use with other data.
 
 The model weights are open-sourced [here](/model_weights).
+
 The NIFTI images depicting the two component latents of all models in both 4mm and 8mm space are open-sourced [here](/niftis).
 
 ## Use queries
